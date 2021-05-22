@@ -6,6 +6,7 @@ const servico = new Schema({
   salaoId: {
     type: mongoose.Types.ObjectId, //Relacionamento
     ref: 'Salao', //Referenciando o Salao
+    required: true,
   },
   titulo: {
     type: String,

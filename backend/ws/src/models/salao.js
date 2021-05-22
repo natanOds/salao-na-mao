@@ -31,7 +31,7 @@ const salao = new Schema({
   dataCdastro: {
     type: Date,
     default: Date.now,
-  }
+  },
 });
 
  salao.index({ geo: '2dsphere' });
