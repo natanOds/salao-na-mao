@@ -1,6 +1,7 @@
 const mongoose = require('mongoose');
 
-const URI = '';
+const URI = 'mongodb+srv://admin:admin123@cluster0.st3z7.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
+             
 
 mongoose.set('useNewUrlParser', true);
 mongoose.set('useFindAndModify', false);
